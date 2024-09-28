@@ -1,6 +1,6 @@
 const container = document.getElementById("allAttendees");
 
-fetch("http://localhost:8080/api/v1/register")
+fetch("https://event-form-server-1.onrender.com/api/v1/register")
   .then((res) => res.json())
   .then((data) => {
     console.log(data);
